@@ -10,8 +10,6 @@ An AI-powered tool that helps users **enhance, rewrite, and optimize prompts** f
   - Improves the clarity, structure, and impact of your original prompt
 - 🎭 **Tone/Style Selector**
   - Choose how your prompt result should sound: Formal, Friendly, Concise, Poetic, etc.
-- 💻 **Platform Optimization**
-  - Customize the prompt for different AI platforms: ChatGPT and Claude
 - 🔁 **Try Again Button**
   - Generate alternate improved versions with a single click
 - 📋 **Quick Copy**
