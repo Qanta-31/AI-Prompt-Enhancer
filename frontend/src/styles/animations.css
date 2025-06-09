@@ -1,0 +1,10 @@
+.dropdown-item {
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #131f28; /* Light blue */
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
