@@ -12,11 +12,20 @@ app.use(express.json());
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
+// const models = [
+//   'mistralai/devstral-small:free',
+//   'google/gemma-3n-e4b-it:free',
+//   'nousresearch/deephermes-3-mistral-24b-preview:free',
+//   'meta-llama/llama-3.3-8b-instruct:free'
+// ];
+
 const models = [
-  'mistralai/devstral-small:free',
-  'google/gemma-3n-e4b-it:free',
-  'nousresearch/deephermes-3-mistral-24b-preview:free',
-  'meta-llama/llama-3.3-8b-instruct:free'
+  'openai/gpt-3.5-turbo',
+  'meta-llama/llama-3-70b-instruct',
+  'mistralai/mistral-7b-instruct',
+  'huggingfaceh4/zephyr-7b-beta',
+  'openchat/openchat-3.5-1210',
+  'gryphe/mythomist-7b',
 ];
 
 const referer = 'http://localhost:5173'; // Change to your frontend domain in production
