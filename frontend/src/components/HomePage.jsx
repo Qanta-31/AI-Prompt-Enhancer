@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Copy, ExternalLink, Check, RefreshCcw } from "lucide-react";
-import Dropdown from "./Dropdown";
+import Dropdown from "./DropDown.jsx";
 import TypingEffect from "./TypingEffect"; // import TypingEffect here
 import "../styles/animations.css";
 import { getEnhancedPrompt } from "../axios";

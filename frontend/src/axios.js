@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export async function getEnhancedPrompt(prompt, outputType) {
   try {
-    const response = await axios.post('http://localhost:5001/api/enhance-prompt', {
+    const response = await axios.post('https://ai-prompt-enhancer-backend-eox6.onrender.com/api/enhance-prompt', {
       prompt,
       outputType
     });
