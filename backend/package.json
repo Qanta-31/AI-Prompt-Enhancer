@@ -5,11 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-<<<<<<< HEAD
     "start" : "node src/index.js"
-=======
-    "start":"node src/index.js"
->>>>>>> a1f28e9066307463776191c0fec28ab474661b51
   },
   "keywords": [],
   "author": "",
